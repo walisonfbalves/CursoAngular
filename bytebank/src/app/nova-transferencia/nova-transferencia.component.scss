@@ -32,7 +32,9 @@
   }
 }
 
-
+.botao-wrapper {
+  display: flex;
+}
 
 .botao {
   background-color: var(--primary);
@@ -46,9 +48,6 @@
   cursor: pointer;
   transition: opacity 0.2s;
 
-  &-wrapper {
-    display: flex;
-  }
 
   &--cancelar {
     background-color: var(--secondary);
